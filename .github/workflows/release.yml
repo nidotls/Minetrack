@@ -3,7 +3,7 @@ name: Container Publish
 on:
   push:
     branches:
-      - "release"
+      - "*"
     tags:
       - "*"
 
