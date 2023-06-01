@@ -1,10 +1,10 @@
+require('dotenv').config()
+
 const App = require('./lib/app')
 const ServerRegistration = require('./lib/servers')
 
 const logger = require('./lib/logger')
-
-const config = require('./config')
-const servers = require('./servers')
+const { config, servers } = require('./lib/config')
 
 const app = new App()
 
